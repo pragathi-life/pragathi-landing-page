@@ -14,7 +14,7 @@ export function Footer() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h3 className="text-2xl font-bold text-white mb-2">pragati</h3>
+          <h3 className="text-2xl font-bold text-white mb-2">Pragathi</h3>
           <p className="text-gray-400 mb-8">Personal Finance Manager - 100% Private, 100% Yours</p>
 
           <div className="flex justify-center gap-6 mb-8">
@@ -25,7 +25,7 @@ export function Footer() {
 
           <div className="pt-8 border-t border-gray-800">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} pragati Finance App. All rights reserved.
+              © {new Date().getFullYear()} Pragathi Finance App. All rights reserved.
             </p>
           </div>
         </motion.div>

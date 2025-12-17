@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Custom pragati color scheme with indigo primary */
+/* Custom Pragathi color scheme with indigo primary */
 :root {
   --background: oklch(0.985 0 0);
   --foreground: oklch(0.165 0 0);
@@ -94,7 +94,7 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
-/* Using Inter font instead of Geist for pragati design */
+/* Using Inter font instead of Geist for Pragathi design */
 @theme inline {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback";
@@ -151,7 +151,7 @@
   }
 }
 
-/* Custom utility classes for pragati colors */
+/* Custom utility classes for Pragathi colors */
 @layer utilities {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;

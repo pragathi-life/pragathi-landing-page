@@ -32,7 +32,7 @@ export function DownloadCTA() {
           </h2>
 
           <p className="text-xl text-white/90 mb-10 leading-relaxed max-w-2xl mx-auto">
-            Join thousands of users who have taken control of their finances with pragati
+            Join thousands of users who have taken control of their finances with Pragathi
           </p>
 
           <Button

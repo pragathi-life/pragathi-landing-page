@@ -85,7 +85,7 @@ export function Hero() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-primary to-purple-600 rounded-3xl blur-3xl opacity-20"></div>
                 <img
                   src="/modern-finance-app-mobile-mockup-with-charts-and-b.jpg"
-                  alt="pragati App Screenshot"
+                  alt="Pragathi App Screenshot"
                   className="relative rounded-3xl shadow-2xl"
                 />
               </motion.div>
