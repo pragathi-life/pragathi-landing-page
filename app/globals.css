@@ -3,98 +3,66 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Custom Pragathi color scheme with indigo primary */
+/* Pragathi Premium Color Palette — Teal & Gold */
 :root {
-  --background: oklch(0.985 0 0);
-  --foreground: oklch(0.165 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  /* Primary: #6366f1 (Indigo) */
-  --primary: oklch(0.608 0.185 264.364);
-  --primary-foreground: oklch(1 0 0);
-  /* Primary Dark: #4338ca */
-  --primary-dark: oklch(0.488 0.205 271.694);
-  /* Success: #10b981 */
-  --success: oklch(0.702 0.153 166.075);
-  /* Warning: #f59e0b */
-  --warning: oklch(0.749 0.156 75.518);
-  /* Danger: #ef4444 */
-  --danger: oklch(0.628 0.257 27.325);
-  /* Dark Text: #1f2937 */
-  --dark: oklch(0.229 0.024 253.316);
-  /* Light Background: #f9fafb */
-  --light-bg: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.628 0.257 27.325);
-  --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.608 0.185 264.364);
-  --chart-1: oklch(0.608 0.185 264.364);
-  --chart-2: oklch(0.702 0.153 166.075);
-  --chart-3: oklch(0.749 0.156 75.518);
-  --chart-4: oklch(0.628 0.257 27.325);
-  --chart-5: oklch(0.697 0.168 303.9);
+  --background: #FFFFFF;
+  --foreground: #1C1917;
+  --card: #FFFFFF;
+  --card-foreground: #1C1917;
+  --popover: #FFFFFF;
+  --popover-foreground: #1C1917;
+  /* Primary Teal: #0D9488 */
+  --primary: #0D9488;
+  --primary-foreground: #FFFFFF;
+  /* Primary Dark */
+  --primary-dark: #0B7E73;
+  /* Success / Light Teal: #14B8A6 */
+  --success: #14B8A6;
+  /* Accent Gold: #F59E0B */
+  --warning: #F59E0B;
+  --accent-gold: #F59E0B;
+  --accent-gold-light: #FDE68A;
+  /* Danger */
+  --danger: #ef4444;
+  /* Heading: #1C1917 */
+  --dark: #1C1917;
+  /* Cream background */
+  --light-bg: #FEF3E2;
+  /* Mint fresh */
+  --mint: #F0FDFA;
+  --secondary: #F0FDFA;
+  --secondary-foreground: #1C1917;
+  --muted: #F0FDFA;
+  --muted-foreground: #78716C;
+  --accent: #F0FDFA;
+  --accent-foreground: #1C1917;
+  --destructive: #ef4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #E7E5E4;
+  --input: #E7E5E4;
+  --ring: #0D9488;
+  /* Light Teal for badges */
+  --teal-light: #99F6E4;
+  --chart-1: #0D9488;
+  --chart-2: #14B8A6;
+  --chart-3: #F59E0B;
+  --chart-4: #FBBF24;
+  --chart-5: #99F6E4;
   --radius: 0.75rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* Premium shadows */
+  --shadow-premium: 0 4px 16px rgba(13, 148, 136, 0.15);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1C1917;
+  --sidebar-primary: #0D9488;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F0FDFA;
+  --sidebar-accent-foreground: #1C1917;
+  --sidebar-border: #E7E5E4;
+  --sidebar-ring: #0D9488;
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.608 0.185 264.364);
-  --primary-foreground: oklch(1 0 0);
-  --primary-dark: oklch(0.488 0.205 271.694);
-  --success: oklch(0.702 0.153 166.075);
-  --warning: oklch(0.749 0.156 75.518);
-  --danger: oklch(0.628 0.257 27.325);
-  --dark: oklch(0.985 0 0);
-  --light-bg: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.628 0.257 27.325);
-  --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.608 0.185 264.364);
-  --chart-1: oklch(0.608 0.185 264.364);
-  --chart-2: oklch(0.702 0.153 166.075);
-  --chart-3: oklch(0.749 0.156 75.518);
-  --chart-4: oklch(0.628 0.257 27.325);
-  --chart-5: oklch(0.697 0.168 303.9);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
-}
-
-/* Using Inter font instead of Geist for Pragathi design */
+/* Using Inter font for Pragathi premium design */
 @theme inline {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback";
@@ -109,9 +77,13 @@
   --color-primary-dark: var(--primary-dark);
   --color-success: var(--success);
   --color-warning: var(--warning);
+  --color-accent-gold: var(--accent-gold);
+  --color-accent-gold-light: var(--accent-gold-light);
   --color-danger: var(--danger);
   --color-dark: var(--dark);
   --color-light-bg: var(--light-bg);
+  --color-mint: var(--mint);
+  --color-teal-light: var(--teal-light);
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-muted: var(--muted);
