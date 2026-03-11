@@ -3,7 +3,7 @@
 import { Hero } from "@/components/hero"
 import { Features } from "@/components/features"
 import { Screenshots } from "@/components/screenshots"
-import { WhyPragathi } from "@/components/why-pragati"
+import { WhyMoneyTracker } from "@/components/why-pragati"
 import { DownloadCTA } from "@/components/download-cta"
 import { Footer } from "@/components/footer"
 
@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Screenshots />
-      <WhyPragathi />
+      <WhyMoneyTracker />
       <DownloadCTA />
       <Footer />
     </main>

@@ -23,8 +23,9 @@ export function Hero() {
           className="absolute -top-14 sm:-top-24 left-0 right-0 flex items-center justify-between px-4 sm:px-6 lg:px-8"
         >
           <div className="flex items-center gap-2">
-            <img src="/icon.jpeg" alt="Pragathi" className="w-8 h-8 rounded-lg" />
-            <span className="text-xl font-bold text-dark">Pragathi</span>
+            <img src="/icon.jpeg" alt="Money Tracker" className="w-8 h-8 rounded-lg" />
+            <span className="text-xl font-bold text-dark">Money Tracker</span>
+            <span className="text-sm text-gray-500 hidden sm:inline">by Pragathi.Life</span>
           </div>
         </motion.nav>
 

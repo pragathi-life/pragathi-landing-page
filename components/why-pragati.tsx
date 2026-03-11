@@ -31,7 +31,7 @@ const reasons = [
   },
 ]
 
-export function WhyPragathi() {
+export function WhyMoneyTracker() {
   return (
     <section className="py-20 sm:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,7 +49,7 @@ export function WhyPragathi() {
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-4"
               style={{ background: "#FDE68A", color: "#92400E" }}
             >
-              Why Pragathi
+              Why Money Tracker
             </motion.span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4" style={{ color: "#1C1917" }}>
               Built with{" "}
@@ -59,7 +59,7 @@ export function WhyPragathi() {
               as Top Priorities
             </h2>
             <p className="text-lg mb-8" style={{ color: "#78716C" }}>
-              We believe your financial data is deeply personal. That&apos;s why Pragathi is designed from the ground up to keep everything on your device.
+              We believe your financial data is deeply personal. That&apos;s why Money Tracker is designed from the ground up to keep everything on your device.
             </p>
 
             <div className="flex flex-wrap gap-3">

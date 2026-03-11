@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-dark mb-4">1. Introduction</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Pragathi – Personal Finance Management App ("we," "our," or "us") values your privacy. This Privacy
+                Money Tracker – Personal Finance Management App ("we," "our," or "us") values your privacy. This Privacy
                 Policy explains how we handle your personal information when you use our mobile application ("App").
               </p>
               <p className="text-gray-700 leading-relaxed">
@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-dark mb-4">6. Third-Party Services</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Pragathi does not use any third-party SDKs, analytics tools, or ad services. No personal information is
+                Money Tracker does not use any third-party SDKs, analytics tools, or ad services. No personal information is
                 shared with external parties.
               </p>
             </section>

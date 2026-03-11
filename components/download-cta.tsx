@@ -41,7 +41,7 @@ export function DownloadCTA() {
           </h2>
 
           <p className="text-xl text-white/85 mb-10 leading-relaxed max-w-2xl mx-auto">
-            Join thousands of users who have taken control of their finances with Pragathi — the app that respects your privacy.
+            Join thousands of users who have taken control of their finances with Money Tracker — the app that respects your privacy.
           </p>
 
           <Button

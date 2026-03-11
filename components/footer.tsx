@@ -17,8 +17,8 @@ export function Footer() {
           <div className="flex flex-col items-center text-center">
             {/* Logo */}
             <div className="flex items-center gap-2 mb-4">
-              <img src="/icon.jpeg" alt="Pragathi" className="w-9 h-9 rounded-lg" />
-              <span className="text-2xl font-bold text-white">Pragathi</span>
+              <img src="/icon.jpeg" alt="Money Tracker" className="w-9 h-9 rounded-lg" />
+              <span className="text-2xl font-bold text-white">Money Tracker</span>
             </div>
             <p className="mb-8 max-w-md" style={{ color: "#78716C" }}>
               Personal Finance Manager — 100% Private, 100% Offline, 100% Yours
@@ -32,7 +32,7 @@ export function Footer() {
 
             <div className="w-full pt-8 border-t border-[#292524]">
               <p className="text-sm flex items-center justify-center gap-1" style={{ color: "#57534E" }}>
-                © {new Date().getFullYear()} Pragathi Finance App. Made with
+                © {new Date().getFullYear()} Money Tracker Finance App. Made with
                 <Heart className="w-3.5 h-3.5 fill-[#0D9488]" style={{ color: "#0D9488" }} />
                 for your financial freedom.
               </p>

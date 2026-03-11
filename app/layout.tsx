@@ -8,9 +8,9 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Pragathi - Personal Finance Manager | 100% Private & Offline",
+  title: "Money Tracker - Personal Finance Manager | 100% Private & Offline",
   description:
-    "Take control of your financial future with Pragathi. 100% private, 100% offline, 100% yours. Track expenses, budgets, goals, and net worth with complete privacy. No ads, no login required.",
+    "Take control of your financial future with Money Tracker. 100% private, 100% offline, 100% yours. Track expenses, budgets, goals, and net worth with complete privacy. No ads, no login required.",
   keywords: [
     "personal finance",
     "expense tracker",
@@ -20,19 +20,19 @@ export const metadata: Metadata = {
     "offline",
     "net worth tracker",
   ],
-  authors: [{ name: "Pragathi Finance App" }],
+  authors: [{ name: "Money Tracker Finance App" }],
   icons: {
     icon: "/icon.jpeg",
     apple: "/icon.jpeg",
   },
   openGraph: {
-    title: "Pragathi - Personal Finance Manager",
+    title: "Money Tracker - Personal Finance Manager",
     description: "100% Private. 100% Offline. 100% Yours. Manage your finances with complete control.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pragathi - Personal Finance Manager",
+    title: "Money Tracker - Personal Finance Manager",
     description: "100% Private. 100% Offline. 100% Yours.",
   },
 }
