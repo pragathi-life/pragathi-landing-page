@@ -51,9 +51,12 @@ export function DownloadCTA() {
               background: "linear-gradient(90deg, #F59E0B 0%, #FBBF24 100%)",
               boxShadow: "0 8px 32px rgba(245, 158, 11, 0.4)",
             }}
+            asChild
           >
-            <Download className="w-5 h-5 mr-2 group-hover:translate-y-0.5 transition-transform" />
-            Download on Play Store
+            <a href="https://play.google.com/store/apps/details?id=life.pragathi.money" target="_blank" rel="noopener noreferrer">
+              <Download className="w-5 h-5 mr-2 group-hover:translate-y-0.5 transition-transform" />
+              Download on Play Store
+            </a>
           </Button>
 
           <div className="mt-10 flex flex-wrap gap-8 justify-center items-center text-white/80 text-sm">

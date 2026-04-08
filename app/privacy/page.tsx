@@ -121,7 +121,9 @@ export default function PrivacyPolicy() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 If you have any questions or concerns about this Privacy Policy, please contact us:
               </p>
-              <p className="text-primary font-medium">kvamsi82@gmail.com</p>
+              <a href="mailto:support@pragathi.life" className="text-primary font-medium hover:underline">
+                support@pragathi.life
+              </a>
             </section>
           </div>
         </motion.div>

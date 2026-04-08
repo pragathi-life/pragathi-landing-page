@@ -68,9 +68,12 @@ export function Hero() {
                   background: "linear-gradient(90deg, #F59E0B 0%, #FBBF24 100%)",
                   boxShadow: "0 4px 16px rgba(245, 158, 11, 0.35)",
                 }}
+                asChild
               >
-                Download on Play Store
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                <a href="https://play.google.com/store/apps/details?id=life.pragathi.money" target="_blank" rel="noopener noreferrer">
+                  Download on Play Store
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
             </div>
 
